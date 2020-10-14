@@ -6,6 +6,8 @@ import { buildUserData } from './userData';
 const RES_HEADERS = {
   'Content-Type': 'application/json',
   'Access-Control-Allow-Headers': 'Content-Type, x-stellar-site-form-sales-key, User-Agent',
+  'Access-Control-Allow-Origin': 'https://stellar.tech,https://stellar.af,http://localhost:3000',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
 };
 
 /**
